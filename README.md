@@ -14,7 +14,7 @@ The package requires the prior installation of the packages `GenomicRanges` (bio
 ## Usage
 The main workflow can be launched either in R via the `workflow_oncoscan.run(chas.fn, gender)` function or via the script "bin/run_oncoscan_workflow.R":
 
-Usage: `Rscript path_to_oncoscanR_package/bin/oncoscan-workflow.R CHAS_FILE GENDER`
+Usage: `Rscript path_to_oncoscanR_package/bin/run_oncoscan_workflow.R CHAS_FILE GENDER`
 - `CHAS_FILE`: Path to the text export file from ChAS.
 - `GENDER`: Gender of the sample (used to handle sex chromosomes). Has to be M (male) or F (female).
 
